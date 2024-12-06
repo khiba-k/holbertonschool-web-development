@@ -1,2 +1,2 @@
 # holbertonschool-web-development
-Holberton School, HTML Advanced
+Holberton School, web development projects
