@@ -33,6 +33,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "source-sans-pro-r";
+  src: url("/source-sans-pro/SourceSansPro-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Body */
 body {
   background-image: url("/assets/background.png");
@@ -150,4 +157,139 @@ Main {
 
 .pros-text {
     line-height: 24px;
+}
+
+/* Quote Section */
+#quote {
+  background-color: #C271FF;
+  height: 392px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote img {
+  width: 160px;
+  height: 160px;
+  margin-right: 53px;
+}
+
+#quote div {
+  color: #ffffff;
+  width: 730px;
+}
+
+#quote div blockquote {
+  font-size: 22px;
+  font-family: source-sans-pro-r;
+  width: 100%;
+  margin-left: 0px;
+  padding-right: 0px;
+}
+
+#quote .name {
+  font-size: 22px;
+  font-family: source-sans-pro;
+  margin-bottom: 3px;
+}
+
+#quote .weather {
+  font-size: 22px;
+  font-family: source-sans-pro-i;
+  margin-top: 8px;
+}
+
+/* Tutorial Section */
+
+#tutorials {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 690px;
+  align-items: center;
+}
+
+#tutorials h1 {
+  font-size: 32px;
+  font-family: source-sans-pro-l;
+  margin-top: 60px;
+  margin-bottom: 75px;
+}
+
+#tutorials h1 span {
+  color: #C271FF;
+  font-family: source-sans-pro;
+}
+
+#tutorials .tutorials {
+  display: flex;
+  flex-direction: row;
+  height: 335px;
+  width: 1450px;
+}
+
+#tutorials .tutorials .videos {
+  width: 255;
+  height: 335px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tutorials .tutorials .videos img {
+  width: 90%;
+}
+
+#tutorials .tutorials .videos .content {
+  width: 80%;
+}
+
+#tutorials .tutorials .videos h2 {
+  font-size: 16px;
+  font-family: source-sans-pro;
+}
+
+#tutorials .tutorials .videos .content {
+  font-size: 14px;
+  font-family: source-sans-pro-r;
+  color: #071629;
+}
+
+#tutorials .tutorials .videos .content .reviewer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#tutorials .tutorials .videos .content .reviewer img {
+  height: 30px;
+  width: 30px;
+}
+
+#tutorials .tutorials .videos .content .reviewer h2 {
+  font-size: 14px;
+  font-family: source-sans-pro-sb;
+  color: #C271FF;
+  margin-left: 14px;
+}
+
+#tutorials .tutorials .videos .content .ratings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+#tutorials .tutorials .videos .content .ratings img {
+  height: 15px;
+  width: 15px;
+  margin-right: 8px;
+}
+
+#tutorials .tutorials .videos .content .ratings p {
+  font-size: 14px;
+  color: #C271FF;
+  margin-top: 0px;
+  font-family: source-sans-pro-sb;
 }
