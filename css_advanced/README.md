@@ -14,7 +14,7 @@ This project focuses on mastering advanced CSS techniques to create a fully resp
 
 ## Preview
 Add an image showcasing the final project here:
-![Project Preview](/assets/css.jpg)
+![Project Preview](assets/css.jpg)
 
 ---
 
